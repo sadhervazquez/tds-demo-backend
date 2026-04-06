@@ -37,7 +37,7 @@ jobs:
         uses: aws-actions/amazon-ecs-render-task-definition@v1
         with:
           task-definition: task-definition.json # You must have this file in your repo
-          container-name: my-node-app
+          container-name: tds
           image: ${{ steps.build-image.outputs.image }}
 
       - name: Deploy Amazon ECS task definition
