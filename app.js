@@ -21,8 +21,8 @@ var repos = [
 
 //Listado de usuarios disponibles
 var users = [
-  { name: 'tobi' }
-  , { name: 'loki' }
+  { name: 'Tobi' }
+  , { name: 'Loki' }
   , { name: 'jane' }
 ];
 
