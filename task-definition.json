@@ -3,7 +3,7 @@
     "networkMode": "awsvpc",
     "containerDefinitions": [
         {
-            "name": "my-node-app",
+            "name": "tds",
             "image": "tds",
             "cpu": 0,
             "portMappings": [
