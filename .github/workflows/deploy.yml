@@ -45,5 +45,5 @@ jobs:
         with:
           task-definition: ${{ steps.task-def.outputs.task-definition }}
           service: teeming-squirrel-6uuy1z
-          cluster: cluster
+          cluster: teeming-squirrel-6uuy1z
           wait-for-service-stability: true
