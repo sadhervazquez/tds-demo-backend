@@ -44,6 +44,6 @@ jobs:
         uses: aws-actions/amazon-ecs-deploy-task-definition@v2
         with:
           task-definition: ${{ steps.task-def.outputs.task-definition }}
-          service: cluster/teeming-squirrel-6uuy1z
-          cluster: tds
+          service: teeming-squirrel-6uuy1z
+          cluster: cluster
           wait-for-service-stability: true
